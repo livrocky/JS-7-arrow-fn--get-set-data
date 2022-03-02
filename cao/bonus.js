@@ -17,6 +17,6 @@ function fn(event) {
   } else if (age < 0) {
     bonusDisplay.textContent = `Klaida, neteisingas amžius`;
   } else {
-    bonusDisplay.textContent = `Jūsų bonusas: ${bonus}`;
+    bonusDisplay.textContent = `Jūsų bonusas: ${bonus} eur`;
   }
 }
